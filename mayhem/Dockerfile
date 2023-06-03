@@ -3,4 +3,5 @@ FROM fuzzers/atheris:2.0.7-python3.9
 ADD . /protobuf
 WORKDIR /protobuf
 
-RUN python3 -m pip install .
+RUN python3 -m pip install atheris 
+RUN python3 -m pip install dataclasses 
