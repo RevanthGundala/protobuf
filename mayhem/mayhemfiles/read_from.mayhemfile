@@ -1,0 +1,7 @@
+project: protobuf
+target: read_from
+duration: 300
+
+cmds:
+  - cmd: python3 /protobuf/fuzz/fuzz_targets/read_from.py
+    libfuzzer: true
